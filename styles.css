@@ -1,0 +1,54 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  text-decoration: underline;
+}
+body{
+  background-color: #E8AD48;
+}
+#countdown{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  color:#E8AD48;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 40px;
+  font-family: 'Cinzel', serif;
+  margin-top: 6%;
+  border: 10px solid #FFDE69;
+}
+img{
+  width: 2in;
+  height: 3in;
+  margin-top: 5%;
+}
+.pic{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
+  #countdown{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  #countdown{
+    font-size: 25px;
+  }
+}
