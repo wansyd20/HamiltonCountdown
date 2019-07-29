@@ -12,22 +12,23 @@ h1 {
 }
 body{
   background-color: #E8AD48;
+  background-image: url(https://images.squarespace-cdn.com/content/58475f112e69cfd920784d8f/1481753046675-TV7ZRCY3X1Y0PXHZEKXI/hamback.png?content-type=image%2Fpng);
 }
-#countdown{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: black;
-  color:#E8AD48;
-  margin-left: 20%;
-  margin-right: 20%;
-  font-size: 40px;
-  font-family: 'Cinzel', serif;
-  margin-top: 6%;
-  border: 10px solid #FFDE69;
-}
-img{
-  width: 2in;
+  #countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color:#E8AD48;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    margin-top: 6%;
+    border: 10px solid white;
+  }
+#logo{
+  width: 2.5in;
   height: 3in;
   margin-top: 5%;
 }
@@ -36,12 +37,14 @@ img{
   justify-content: center;
 }
 
+
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 20px;
   }
   #countdown{
     font-size: 18px;
+    z-index: -5;
   }
 }
 @media screen and (max-width: 800px) {
